@@ -5,14 +5,10 @@
       "Accord/3.8.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Accord.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Accord.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Accord.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Accord.dll": {}
         },
         "build": {
           "build/Accord.targets": {}
@@ -24,20 +20,12 @@
           "Accord": "3.8.0"
         },
         "compile": {
-          "lib/netstandard2.0/Accord.Math.Core.dll": {
-            "related": ".xml"
-          },
-          "lib/netstandard2.0/Accord.Math.dll": {
-            "related": ".Core.xml;.xml"
-          }
+          "lib/netstandard2.0/Accord.Math.Core.dll": {},
+          "lib/netstandard2.0/Accord.Math.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Accord.Math.Core.dll": {
-            "related": ".xml"
-          },
-          "lib/netstandard2.0/Accord.Math.dll": {
-            "related": ".Core.xml;.xml"
-          }
+          "lib/netstandard2.0/Accord.Math.Core.dll": {},
+          "lib/netstandard2.0/Accord.Math.dll": {}
         }
       },
       "Accord.Statistics/3.8.0": {
@@ -47,27 +35,19 @@
           "Accord.Math": "3.8.0"
         },
         "compile": {
-          "lib/netstandard2.0/Accord.Statistics.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Accord.Statistics.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Accord.Statistics.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/Accord.Statistics.dll": {}
         }
       },
       "CsvHelper/30.0.1": {
         "type": "package",
         "compile": {
-          "lib/net6.0/CsvHelper.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/CsvHelper.dll": {}
         },
         "runtime": {
-          "lib/net6.0/CsvHelper.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/CsvHelper.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {
@@ -91,14 +71,10 @@
       "Microsoft.Win32.SystemEvents/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -113,14 +89,10 @@
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Newtonsoft.Json.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/Newtonsoft.Json.dll": {}
         }
       },
       "System.Drawing.Common/6.0.0": {
@@ -129,14 +101,10 @@
           "Microsoft.Win32.SystemEvents": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Drawing.Common.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/System.Drawing.Common.dll": {}
         },
         "runtime": {
-          "lib/net6.0/System.Drawing.Common.dll": {
-            "related": ".xml"
-          }
+          "lib/net6.0/System.Drawing.Common.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -162,9 +130,7 @@
           "System.Threading.Tasks": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.IO.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.5/System.IO.dll": {}
         }
       },
       "System.Reflection/4.3.0": {
@@ -177,9 +143,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.Reflection.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.5/System.Reflection.dll": {}
         }
       },
       "System.Reflection.Primitives/4.3.0": {
@@ -190,9 +154,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Primitives.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.0/System.Reflection.Primitives.dll": {}
         }
       },
       "System.Runtime/4.3.0": {
@@ -202,9 +164,7 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.Runtime.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
       "System.Runtime.Handles/4.3.0": {
@@ -215,9 +175,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Runtime.Handles.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Runtime.Handles.dll": {}
         }
       },
       "System.Runtime.InteropServices/4.3.0": {
@@ -242,9 +200,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Text.Encoding.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Text.Encoding.dll": {}
         }
       },
       "System.Threading.Tasks/4.3.0": {
@@ -255,9 +211,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Threading.Tasks.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
       "StudioControlGestureRecognition.Exchange/1.0.0": {
@@ -1164,23 +1118,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Robbe\\.nuget\\packages\\": {},
+    "C:\\Users\\ShutY\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.AI\\StudioControlGestureRecognition.AI.csproj",
+      "projectUniqueName": "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.AI\\StudioControlGestureRecognition.AI.csproj",
       "projectName": "StudioControlGestureRecognition.AI",
-      "projectPath": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.AI\\StudioControlGestureRecognition.AI.csproj",
-      "packagesPath": "C:\\Users\\Robbe\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.AI\\obj\\",
+      "projectPath": "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.AI\\StudioControlGestureRecognition.AI.csproj",
+      "packagesPath": "C:\\Users\\ShutY\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.AI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Robbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ShutY\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1189,18 +1143,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj": {
-              "projectPath": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj"
+            "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj": {
+              "projectPath": "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj"
             },
-            "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Storage\\StudioControlGestureRecognition.Storage.csproj": {
-              "projectPath": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Storage\\StudioControlGestureRecognition.Storage.csproj"
+            "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Storage\\StudioControlGestureRecognition.Storage.csproj": {
+              "projectPath": "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Storage\\StudioControlGestureRecognition.Storage.csproj"
             }
           }
         }
@@ -1230,8 +1183,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -1240,7 +1192,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
       }
     }
   }

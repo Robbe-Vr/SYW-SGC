@@ -22,3 +22,15 @@ D:\source\repos\StudioControlGestureRecognition.App\StudioControlGestureRecognit
 D:\source\repos\StudioControlGestureRecognition.App\StudioControlGestureRecognition.Exchange\obj\Debug\net6.0\refint\StudioControlGestureRecognition.Exchange.dll
 D:\source\repos\StudioControlGestureRecognition.App\StudioControlGestureRecognition.Exchange\obj\Debug\net6.0\StudioControlGestureRecognition.Exchange.pdb
 D:\source\repos\StudioControlGestureRecognition.App\StudioControlGestureRecognition.Exchange\obj\Debug\net6.0\ref\StudioControlGestureRecognition.Exchange.dll
+C:\Users\ShutY\source\repos\SYW-SGC\app\StudioControlGestureRecognition.Exchange\bin\Debug\net6.0\StudioControlGestureRecognition.Exchange.deps.json
+C:\Users\ShutY\source\repos\SYW-SGC\app\StudioControlGestureRecognition.Exchange\bin\Debug\net6.0\StudioControlGestureRecognition.Exchange.dll
+C:\Users\ShutY\source\repos\SYW-SGC\app\StudioControlGestureRecognition.Exchange\bin\Debug\net6.0\StudioControlGestureRecognition.Exchange.pdb
+C:\Users\ShutY\source\repos\SYW-SGC\app\StudioControlGestureRecognition.Exchange\obj\Debug\net6.0\StudioControlGestureRecognition.Exchange.csproj.AssemblyReference.cache
+C:\Users\ShutY\source\repos\SYW-SGC\app\StudioControlGestureRecognition.Exchange\obj\Debug\net6.0\StudioControlGestureRecognition.Exchange.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ShutY\source\repos\SYW-SGC\app\StudioControlGestureRecognition.Exchange\obj\Debug\net6.0\StudioControlGestureRecognition.Exchange.AssemblyInfoInputs.cache
+C:\Users\ShutY\source\repos\SYW-SGC\app\StudioControlGestureRecognition.Exchange\obj\Debug\net6.0\StudioControlGestureRecognition.Exchange.AssemblyInfo.cs
+C:\Users\ShutY\source\repos\SYW-SGC\app\StudioControlGestureRecognition.Exchange\obj\Debug\net6.0\StudioControlGestureRecognition.Exchange.csproj.CoreCompileInputs.cache
+C:\Users\ShutY\source\repos\SYW-SGC\app\StudioControlGestureRecognition.Exchange\obj\Debug\net6.0\StudioControlGestureRecognition.Exchange.dll
+C:\Users\ShutY\source\repos\SYW-SGC\app\StudioControlGestureRecognition.Exchange\obj\Debug\net6.0\refint\StudioControlGestureRecognition.Exchange.dll
+C:\Users\ShutY\source\repos\SYW-SGC\app\StudioControlGestureRecognition.Exchange\obj\Debug\net6.0\StudioControlGestureRecognition.Exchange.pdb
+C:\Users\ShutY\source\repos\SYW-SGC\app\StudioControlGestureRecognition.Exchange\obj\Debug\net6.0\ref\StudioControlGestureRecognition.Exchange.dll

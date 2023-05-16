@@ -1,0 +1,6 @@
+.vs
+.vscode
+__pycache__
+.env
+[Oo]bj/
+[Bb]in/

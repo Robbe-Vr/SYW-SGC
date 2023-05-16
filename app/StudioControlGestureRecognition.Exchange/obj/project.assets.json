@@ -30,9 +30,7 @@
           "System.Threading.Tasks": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.IO.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.5/System.IO.dll": {}
         }
       },
       "System.Reflection/4.3.0": {
@@ -45,9 +43,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.Reflection.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.5/System.Reflection.dll": {}
         }
       },
       "System.Reflection.Primitives/4.3.0": {
@@ -58,9 +54,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/System.Reflection.Primitives.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.0/System.Reflection.Primitives.dll": {}
         }
       },
       "System.Runtime/4.3.0": {
@@ -70,9 +64,7 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         },
         "compile": {
-          "ref/netstandard1.5/System.Runtime.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
       "System.Runtime.Handles/4.3.0": {
@@ -83,9 +75,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Runtime.Handles.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Runtime.Handles.dll": {}
         }
       },
       "System.Runtime.InteropServices/4.3.0": {
@@ -110,9 +100,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Text.Encoding.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Text.Encoding.dll": {}
         }
       },
       "System.Threading.Tasks/4.3.0": {
@@ -123,9 +111,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/System.Threading.Tasks.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       }
     }
@@ -746,23 +732,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Robbe\\.nuget\\packages\\": {},
+    "C:\\Users\\ShutY\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj",
+      "projectUniqueName": "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj",
       "projectName": "StudioControlGestureRecognition.Exchange",
-      "projectPath": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj",
-      "packagesPath": "C:\\Users\\Robbe\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Exchange\\obj\\",
+      "projectPath": "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj",
+      "packagesPath": "C:\\Users\\ShutY\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Exchange\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Robbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ShutY\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -771,7 +757,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -801,8 +786,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -811,7 +795,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
       }
     }
   }

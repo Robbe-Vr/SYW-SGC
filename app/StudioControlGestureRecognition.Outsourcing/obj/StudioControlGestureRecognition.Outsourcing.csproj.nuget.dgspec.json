@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Outsourcing\\StudioControlGestureRecognition.Outsourcing.csproj": {}
+    "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Outsourcing\\StudioControlGestureRecognition.Outsourcing.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj": {
+    "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj",
+        "projectUniqueName": "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj",
         "projectName": "StudioControlGestureRecognition.Exchange",
-        "projectPath": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj",
-        "packagesPath": "C:\\Users\\Robbe\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Exchange\\obj\\",
+        "projectPath": "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj",
+        "packagesPath": "C:\\Users\\ShutY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Exchange\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Robbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ShutY\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,8 +55,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -66,24 +64,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Outsourcing\\StudioControlGestureRecognition.Outsourcing.csproj": {
+    "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Outsourcing\\StudioControlGestureRecognition.Outsourcing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Outsourcing\\StudioControlGestureRecognition.Outsourcing.csproj",
+        "projectUniqueName": "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Outsourcing\\StudioControlGestureRecognition.Outsourcing.csproj",
         "projectName": "StudioControlGestureRecognition.Outsourcing",
-        "projectPath": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Outsourcing\\StudioControlGestureRecognition.Outsourcing.csproj",
-        "packagesPath": "C:\\Users\\Robbe\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Outsourcing\\obj\\",
+        "projectPath": "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Outsourcing\\StudioControlGestureRecognition.Outsourcing.csproj",
+        "packagesPath": "C:\\Users\\ShutY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Outsourcing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Robbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ShutY\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -92,15 +90,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj": {
-                "projectPath": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj"
+              "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj": {
+                "projectPath": "C:\\Users\\ShutY\\source\\repos\\SYW-SGC\\app\\StudioControlGestureRecognition.Exchange\\StudioControlGestureRecognition.Exchange.csproj"
               }
             }
           }
@@ -134,8 +131,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -144,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }
