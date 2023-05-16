@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StudioControlGestureRecognition.AI\StudioControlGestureRecognition.AI.csproj" />
+    <ProjectReference Include="..\StudioControlGestureRecognition.Exchange\StudioControlGestureRecognition.Exchange.csproj" />
+    <ProjectReference Include="..\StudioControlGestureRecognition.ImageProcessing\StudioControlGestureRecognition.ImageProcessing.csproj" />
+    <ProjectReference Include="..\StudioControlGestureRecognition.Storage\StudioControlGestureRecognition.Storage.csproj" />
+    <ProjectReference Include="..\StudioControlGestureRecognition.VideoSource\StudioControlGestureRecognition.VideoSource.csproj" />
+  </ItemGroup>
+
+</Project>

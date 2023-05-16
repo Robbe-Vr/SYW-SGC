@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudioControlGestureRecognition.App", "StudioControlGestureRecognition.App\StudioControlGestureRecognition.App.csproj", "{4ABE5ADD-416E-42DA-8CF0-C2DE9046CC86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudioControlGestureRecognition.Core", "StudioControlGestureRecognition.Core\StudioControlGestureRecognition.Core.csproj", "{A323EF5B-0443-4619-AF8A-21D413CDB997}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudioControlGestureRecognition.AI", "StudioControlGestureRecognition.AI\StudioControlGestureRecognition.AI.csproj", "{4B4C29A7-FC77-43A6-890D-DE534E0EE833}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudioControlGestureRecognition.Exchange", "StudioControlGestureRecognition.Exchange\StudioControlGestureRecognition.Exchange.csproj", "{57FEF2FB-4199-400E-8030-BAF78A7F55A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudioControlGestureRecognition.VideoSource", "StudioControlGestureRecognition.VideoSource\StudioControlGestureRecognition.VideoSource.csproj", "{F4837F85-F6C9-42F7-98D7-22D043F4E111}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudioControlGestureRecognition.Storage", "StudioControlGestureRecognition.Storage\StudioControlGestureRecognition.Storage.csproj", "{FF861119-55FA-49D1-BCE1-ACB4222F2E8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudioControlGestureRecognition.ImageProcessing", "StudioControlGestureRecognition.ImageProcessing\StudioControlGestureRecognition.ImageProcessing.csproj", "{1D10C899-E48B-4CC0-8969-DD3248B0956E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudioControlGestureRecognition.Outsourcing", "StudioControlGestureRecognition.Outsourcing\StudioControlGestureRecognition.Outsourcing.csproj", "{3E36B52D-AA98-4EF4-A391-959CD55E5EB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4ABE5ADD-416E-42DA-8CF0-C2DE9046CC86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABE5ADD-416E-42DA-8CF0-C2DE9046CC86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABE5ADD-416E-42DA-8CF0-C2DE9046CC86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABE5ADD-416E-42DA-8CF0-C2DE9046CC86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A323EF5B-0443-4619-AF8A-21D413CDB997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A323EF5B-0443-4619-AF8A-21D413CDB997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A323EF5B-0443-4619-AF8A-21D413CDB997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A323EF5B-0443-4619-AF8A-21D413CDB997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B4C29A7-FC77-43A6-890D-DE534E0EE833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B4C29A7-FC77-43A6-890D-DE534E0EE833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B4C29A7-FC77-43A6-890D-DE534E0EE833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B4C29A7-FC77-43A6-890D-DE534E0EE833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57FEF2FB-4199-400E-8030-BAF78A7F55A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57FEF2FB-4199-400E-8030-BAF78A7F55A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57FEF2FB-4199-400E-8030-BAF78A7F55A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57FEF2FB-4199-400E-8030-BAF78A7F55A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4837F85-F6C9-42F7-98D7-22D043F4E111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4837F85-F6C9-42F7-98D7-22D043F4E111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4837F85-F6C9-42F7-98D7-22D043F4E111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4837F85-F6C9-42F7-98D7-22D043F4E111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF861119-55FA-49D1-BCE1-ACB4222F2E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF861119-55FA-49D1-BCE1-ACB4222F2E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF861119-55FA-49D1-BCE1-ACB4222F2E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF861119-55FA-49D1-BCE1-ACB4222F2E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D10C899-E48B-4CC0-8969-DD3248B0956E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D10C899-E48B-4CC0-8969-DD3248B0956E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D10C899-E48B-4CC0-8969-DD3248B0956E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D10C899-E48B-4CC0-8969-DD3248B0956E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E36B52D-AA98-4EF4-A391-959CD55E5EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E36B52D-AA98-4EF4-A391-959CD55E5EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E36B52D-AA98-4EF4-A391-959CD55E5EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E36B52D-AA98-4EF4-A391-959CD55E5EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8345A18-F49A-46C8-BDFD-E5628DFDFAAC}
+	EndGlobalSection
+EndGlobal

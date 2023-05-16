@@ -1,0 +1,150 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "StudioControlGestureRecognition.MediaPipeSolutions/1.0.0": {
+        "dependencies": {
+          "Mediapipe.Net": "0.9.1",
+          "Mediapipe.Net.Runtime.CPU": "0.9.1",
+          "System.Drawing.Common": "7.0.0"
+        },
+        "runtime": {
+          "StudioControlGestureRecognition.MediaPipeSolutions.dll": {}
+        }
+      },
+      "Google.Protobuf/3.21.3": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.21.3.0",
+            "fileVersion": "3.21.3.0"
+          }
+        }
+      },
+      "Mediapipe.Net/0.9.1": {
+        "dependencies": {
+          "Google.Protobuf": "3.21.3",
+          "Mediapipe.Net.Framework.Protobuf": "0.9.1-mpu-0.9.1-20230214.1"
+        },
+        "runtime": {
+          "lib/net6.0/Mediapipe.Net.dll": {
+            "assemblyVersion": "0.9.1.0",
+            "fileVersion": "0.9.1.0"
+          }
+        }
+      },
+      "Mediapipe.Net.Framework.Protobuf/0.9.1-mpu-0.9.1-20230214.1": {
+        "dependencies": {
+          "Google.Protobuf": "3.21.3"
+        },
+        "runtime": {
+          "lib/net6.0/Mediapipe.Net.Framework.Protobuf.dll": {
+            "assemblyVersion": "0.9.1.0",
+            "fileVersion": "0.9.1.0"
+          }
+        }
+      },
+      "Mediapipe.Net.Runtime.CPU/0.9.1": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libmediapipe_c.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/mediapipe_c.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/7.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Drawing.Common/7.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StudioControlGestureRecognition.MediaPipeSolutions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.21.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KpkugJ70ZA73lC76mKZcx6JQ2tcfqcJb9uHQDy0Hj34Sh06hl9lmU1ZmWQoOLQcXbr7/HWtRsM2AdNv/jDQdiA==",
+      "path": "google.protobuf/3.21.3",
+      "hashPath": "google.protobuf.3.21.3.nupkg.sha512"
+    },
+    "Mediapipe.Net/0.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O5uHlOHBDZDe8WSLOF1QI9fFFtSgyT/c3/dSQ7F5RZyjn67stkIlDY51d7rDnVBuZF+1tqswT/2W1cm6p1HCAA==",
+      "path": "mediapipe.net/0.9.1",
+      "hashPath": "mediapipe.net.0.9.1.nupkg.sha512"
+    },
+    "Mediapipe.Net.Framework.Protobuf/0.9.1-mpu-0.9.1-20230214.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WCs9mKmUyaYan/ft+NTFOVdb4mbCNLQCvuLbRDy0hXLN5WbpcOBtZjheBCHKzonBk6Fs5XEMpp5rbTZ0zAoEew==",
+      "path": "mediapipe.net.framework.protobuf/0.9.1-mpu-0.9.1-20230214.1",
+      "hashPath": "mediapipe.net.framework.protobuf.0.9.1-mpu-0.9.1-20230214.1.nupkg.sha512"
+    },
+    "Mediapipe.Net.Runtime.CPU/0.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M6+jZS1IFI8DEeQ5BKRuVOkWtlPwSoDGn8WL6sn+LLk9wgld6jI0HGRzE4j5s1C62E7k0kZHlSn0BKIa/y7y/w==",
+      "path": "mediapipe.net.runtime.cpu/0.9.1",
+      "hashPath": "mediapipe.net.runtime.cpu.0.9.1.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
+      "path": "microsoft.win32.systemevents/7.0.0",
+      "hashPath": "microsoft.win32.systemevents.7.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
+      "path": "system.drawing.common/7.0.0",
+      "hashPath": "system.drawing.common.7.0.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Google.Protobuf/3.21.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Mediapipe.Net/0.9.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.21.3",
+          "Mediapipe.Net.Framework.Protobuf": "0.9.1-mpu-0.9.1-20230214.1"
+        },
+        "compile": {
+          "lib/net6.0/Mediapipe.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Mediapipe.Net.dll": {}
+        }
+      },
+      "Mediapipe.Net.Framework.Protobuf/0.9.1-mpu-0.9.1-20230214.1": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.21.3"
+        },
+        "compile": {
+          "lib/net6.0/Mediapipe.Net.Framework.Protobuf.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Mediapipe.Net.Framework.Protobuf.dll": {}
+        }
+      },
+      "Mediapipe.Net.Runtime.CPU/0.9.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libmediapipe_c.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/win-x64/native/mediapipe_c.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Drawing.Common/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Google.Protobuf/3.21.3": {
+      "sha512": "KpkugJ70ZA73lC76mKZcx6JQ2tcfqcJb9uHQDy0Hj34Sh06hl9lmU1ZmWQoOLQcXbr7/HWtRsM2AdNv/jDQdiA==",
+      "type": "package",
+      "path": "google.protobuf/3.21.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "google.protobuf.3.21.3.nupkg.sha512",
+        "google.protobuf.nuspec",
+        "lib/net45/Google.Protobuf.dll",
+        "lib/net45/Google.Protobuf.pdb",
+        "lib/net45/Google.Protobuf.xml",
+        "lib/net5.0/Google.Protobuf.dll",
+        "lib/net5.0/Google.Protobuf.pdb",
+        "lib/net5.0/Google.Protobuf.xml",
+        "lib/netstandard1.1/Google.Protobuf.dll",
+        "lib/netstandard1.1/Google.Protobuf.pdb",
+        "lib/netstandard1.1/Google.Protobuf.xml",
+        "lib/netstandard2.0/Google.Protobuf.dll",
+        "lib/netstandard2.0/Google.Protobuf.pdb",
+        "lib/netstandard2.0/Google.Protobuf.xml"
+      ]
+    },
+    "Mediapipe.Net/0.9.1": {
+      "sha512": "O5uHlOHBDZDe8WSLOF1QI9fFFtSgyT/c3/dSQ7F5RZyjn67stkIlDY51d7rDnVBuZF+1tqswT/2W1cm6p1HCAA==",
+      "type": "package",
+      "path": "mediapipe.net/0.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/Mediapipe.Net.dll",
+        "mediapipe.net.0.9.1.nupkg.sha512",
+        "mediapipe.net.nuspec"
+      ]
+    },
+    "Mediapipe.Net.Framework.Protobuf/0.9.1-mpu-0.9.1-20230214.1": {
+      "sha512": "WCs9mKmUyaYan/ft+NTFOVdb4mbCNLQCvuLbRDy0hXLN5WbpcOBtZjheBCHKzonBk6Fs5XEMpp5rbTZ0zAoEew==",
+      "type": "package",
+      "path": "mediapipe.net.framework.protobuf/0.9.1-mpu-0.9.1-20230214.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net6.0/Mediapipe.Net.Framework.Protobuf.dll",
+        "lib/netstandard2.1/Mediapipe.Net.Framework.Protobuf.dll",
+        "mediapipe.net.framework.protobuf.0.9.1-mpu-0.9.1-20230214.1.nupkg.sha512",
+        "mediapipe.net.framework.protobuf.nuspec"
+      ]
+    },
+    "Mediapipe.Net.Runtime.CPU/0.9.1": {
+      "sha512": "M6+jZS1IFI8DEeQ5BKRuVOkWtlPwSoDGn8WL6sn+LLk9wgld6jI0HGRzE4j5s1C62E7k0kZHlSn0BKIa/y7y/w==",
+      "type": "package",
+      "path": "mediapipe.net.runtime.cpu/0.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.1/_._",
+        "mediapipe.net.runtime.cpu.0.9.1.nupkg.sha512",
+        "mediapipe.net.runtime.cpu.nuspec",
+        "runtimes/linux-x64/native/libmediapipe_c.so",
+        "runtimes/win-x64/native/mediapipe_c.dll"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0": {
+      "sha512": "2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Drawing.Common/7.0.0": {
+      "sha512": "KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
+      "type": "package",
+      "path": "system.drawing.common/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net6.0/System.Drawing.Common.dll",
+        "lib/net6.0/System.Drawing.Common.xml",
+        "lib/net7.0/System.Drawing.Common.dll",
+        "lib/net7.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/net7.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/net7.0/System.Drawing.Common.xml",
+        "system.drawing.common.7.0.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Mediapipe.Net >= 0.9.1",
+      "Mediapipe.Net.Runtime.CPU >= 0.9.1",
+      "System.Drawing.Common >= 7.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Robbe\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.MediaPipeSolutions\\StudioControlGestureRecognition.MediaPipeSolutions.csproj",
+      "projectName": "StudioControlGestureRecognition.MediaPipeSolutions",
+      "projectPath": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.MediaPipeSolutions\\StudioControlGestureRecognition.MediaPipeSolutions.csproj",
+      "packagesPath": "C:\\Users\\Robbe\\.nuget\\packages\\",
+      "outputPath": "D:\\source\\repos\\StudioControlGestureRecognition.App\\StudioControlGestureRecognition.MediaPipeSolutions\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Robbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Mediapipe.Net": {
+            "target": "Package",
+            "version": "[0.9.1, )"
+          },
+          "Mediapipe.Net.Runtime.CPU": {
+            "target": "Package",
+            "version": "[0.9.1, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[7.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StudioControlGestureRecognition.Core\StudioControlGestureRecognition.Core.csproj" />
+    <ProjectReference Include="..\StudioControlGestureRecognition.Exchange\StudioControlGestureRecognition.Exchange.csproj" />
+    <ProjectReference Include="..\StudioControlGestureRecognition.Storage\StudioControlGestureRecognition.Storage.csproj" />
+  </ItemGroup>
+
+</Project>
