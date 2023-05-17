@@ -1,6 +1,6 @@
-.vs
-.vscode
-__pycache__
+.vs/
+.vscode/
+__pycache__/
 .env
 [Oo]bj/
 [Bb]in/
