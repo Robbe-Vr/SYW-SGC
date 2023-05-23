@@ -372,7 +372,7 @@ namespace StudioControlGestureRecognition.Core
         {
             if (dataSetIndex < 0) return false;
 
-            return _aiModelManager.UpdateTrainingDataSet(dataSetIndex, _currentRecordingGestureLabel);
+            return _aiModelManager.UpdateTrainingDataSet(dataSetIndex, _currentDataSetGroup, _currentRecordingGestureLabel);
         }
 
         public bool DeleteDataSet(int dataSetIndex)

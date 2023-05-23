@@ -94,7 +94,7 @@ namespace StudioControlGestureRecognition.AI.HMM
                 teacher.Learner = (modelIndex) => new BaumWelchLearning<MultivariateNormalDistribution, double[]>(_classifier?.Models.FirstOrDefault(m => m.Tag as string == _classes[modelIndex].Label) ?? classifier.Models[modelIndex])
                 {
                     Tolerance = 0.0001,
-                    MaxIterations = 50000,
+                    MaxIterations = 100_000,
 
                     FittingOptions = new NormalOptions()
                     {

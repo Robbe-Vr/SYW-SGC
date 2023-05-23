@@ -4,6 +4,7 @@ using StudioControlGestureRecognition.Exchange.Storage;
 using StudioControlGestureRecognition.Storage.Utils;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
@@ -83,11 +84,13 @@ namespace StudioControlGestureRecognition.Storage.AI
             }
         }
 
-        public bool StoreStaticGestureTrainingDataSets(UnpreparedLabeledGestureSet[] classes)
+        public bool StoreStaticGestureTrainingDataSets(UnpreparedLabeledGestureSet[] dataSets, string[]? gestureLabels = null)
         {
             try
             {
-                File.WriteAllText(_trainingDataSetsFilePath, JsonUtils.Serialize(classes));
+                if (gestureLabels != null) dataSets = dataSets.OrderBy(x => x.GestureClass.Group).ThenBy(x => Array.FindIndex(gestureLabels, 0, l => l == x.GestureClass.Label)).ToArray();
+
+                File.WriteAllText(_trainingDataSetsFilePath, JsonUtils.Serialize(dataSets));
 
                 return true;
             }
@@ -115,11 +118,13 @@ namespace StudioControlGestureRecognition.Storage.AI
             }
         }
 
-        public bool StoreGestureTrainingDataSets(LabeledGestureSet[] classes)
+        public bool StoreGestureTrainingDataSets(LabeledGestureSet[] dataSets, string[]? gestureLabels = null)
         {
             try
             {
-                File.WriteAllText(_trainingGestureDataSetsFilePath, JsonUtils.Serialize(classes));
+                if (gestureLabels != null) dataSets = dataSets.OrderBy(x => x.GestureClass.Group).ThenBy(x => Array.FindIndex(gestureLabels, 0, l => l == x.GestureClass.Label)).ToArray();
+
+                File.WriteAllText(_trainingGestureDataSetsFilePath, JsonUtils.Serialize(dataSets));
 
                 return true;
             }

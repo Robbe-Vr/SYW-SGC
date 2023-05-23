@@ -4,6 +4,7 @@ using StudioControlGestureRecognition.Core.Events;
 using StudioControlGestureRecognition.Exchange.Gesture_Database;
 using StudioControlGestureRecognition.Exchange.Objects;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -281,7 +282,10 @@ namespace StudioControlGestureRecognition.App
                 TrainingDataSetPictureBox.Image = dataSet.Value.image;
                 TrainingDataSetPictureBox.Update();
 
-                DataSetInfoLabel.Text = $"Gesture Label: {dataSet.Value.gestureClass.Label} - Group: {dataSet.Value.gestureClass.Group}";
+                IEnumerable<string> labels = AvailableDataSetsComboBox.Items.Cast<string>();
+                int count = labels.Count(x => x.EndsWith($". {dataSet.Value.gestureClass.Label}"));
+
+               DataSetInfoLabel.Text = $"Group: {dataSet.Value.gestureClass.Group} - Gesture Label: {dataSet.Value.gestureClass.Label} - Training Sets: {count}";
             }
         }
 
