@@ -162,7 +162,7 @@ namespace StudioControlGestureRecognition.AI
 
             UnpreparedLabeledGestureSet[] trainingDataSets = _storage.LoadStaticGestureTrainingDataSets();
 
-            return _storage.StoreStaticGestureTrainingDataSets(trainingDataSets.Append(trainingDataSet).OrderBy(x => x.GestureClass.Group).ThenBy(x => Array.FindIndex(_gestureLabels, 0, l => l.Group == x.GestureClass.Group && l.Label == x.GestureClass.Label)).ToArray());
+            return _storage.StoreStaticGestureTrainingDataSets(trainingDataSets.Append(trainingDataSet).ToArray(), _gestureLabels.Where(c => c.Group == trainingDataSet.GestureClass.Group).Select(c => c.Label).ToArray());
         }
 
         public UnpreparedLabeledGestureSet[] LoadTrainingSets()
@@ -185,7 +185,7 @@ namespace StudioControlGestureRecognition.AI
 
             LabeledGestureSet[] trainingDataSets = _storage.LoadGestureTrainingDataSets();
 
-            return _storage.StoreGestureTrainingDataSets(trainingDataSets.Append(trainingDataSet).OrderBy(x => x.GestureClass.Group).ThenBy(x => Array.FindIndex(_gestureLabels, 0, l => l.Group == x.GestureClass.Group && l.Label == x.GestureClass.Label)).ToArray());
+            return _storage.StoreGestureTrainingDataSets(trainingDataSets.Append(trainingDataSet).ToArray(), _gestureLabels.Where(c => c.Group == trainingDataSet.GestureClass.Group).Select(c => c.Label).ToArray());
         }
 
         public LabeledGestureSet[] LoadGetureTrainingSets()
@@ -223,17 +223,16 @@ namespace StudioControlGestureRecognition.AI
             return _storage.StoreGestureClasses(classes.ToArray()) && _storage.StoreStaticGestureTrainingDataSets(trainingDataSets.ToArray());
         }
 
-        public bool UpdateTrainingDataSet(int dataSetIndex, string newGestureLabel)
+        public bool UpdateTrainingDataSet(int dataSetIndex, DataSetGroup group, string newLabel)
         {
-            GestureClass? gestureClass = _storage.LoadGestureClasses().FirstOrDefault(c => c.Label == newGestureLabel);
-
-            if (gestureClass == null) { return false; }
+            GestureClass? gestureClass;
+            if ((gestureClass = _gestureLabels.FirstOrDefault(l => l.Group == group && l.Label == newLabel)) == null) return false;
 
             UnpreparedLabeledGestureSet[] trainingDataSets = _storage.LoadStaticGestureTrainingDataSets();
 
             trainingDataSets.ElementAt(dataSetIndex).GestureClass = gestureClass;
 
-            return _storage.StoreStaticGestureTrainingDataSets(trainingDataSets.OrderBy(x => x.GestureClass.Group).ThenBy(x => Array.FindIndex(_gestureLabels, 0, l => l.Group == x.GestureClass.Group && l.Label == x.GestureClass.Label)).ToArray());
+            return _storage.StoreStaticGestureTrainingDataSets(trainingDataSets, _gestureLabels.Where(c => c.Group == group).Select(c => c.Label).ToArray());
         }
 
         public bool DeleteTrainingDataSet(int dataSetIndex)
